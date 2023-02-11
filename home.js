@@ -56,7 +56,7 @@ window.addEventListener('load', () => {
     render(root, store)
 })
 
-// ------------------------------------------------------  COMPONENTS
+// ------------------  COMPONENTS
 function eventClick(e, callBack){
   callBack(e.target.id);
 }
@@ -121,7 +121,7 @@ const ImageOfTheDay = (apod) => {
     }
 }
 
-// ------------------------------------------------------  API CALLS
+// ---------------  API CALLS
 
 // Example API call
 //const getImageOfTheDay = (state) => {
